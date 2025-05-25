@@ -1,0 +1,21 @@
+.koka {
+    padding: 20px;
+    margin: 20px;
+}
+
+.titik {
+    color: #968f8f;
+}
+
+.map {
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(227, 221, 221);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Tulis {
+    padding: 10px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Daftar Buku</title>
+</head>
+    
+<body>
+    <header class="header"> 
+        <div class="loh">
+            <img src="logo wp.png" alt="" style="width: 50px;height: 50px;">
+            <a href="#" class="logo">Perpustakaan WP
+            </a>
+          </div>
+          <div class="loh1">
+
+          </div>
+
+
+        <nav class="navbar">
+            <a href="Index.html" >Beranda</a>
+            <a href="Services.html">Informasi</a>
+            <a href="Experience.html">Berita</a>
+            <a href="Projects.html">Bantuan</a>
+            <a href="Education.html">Pustakawan</a>
+        </nav>
+
+
+    </header>
+<div class="wrapper">
+  <div class="sidebar">
+    <div class="filter-section">
+      <h4>Tahun Penerbitan</h4>
+      <input type="range" min="1985" max="2025">
+    </div>
+    <div class="filter-section">
+      <label><input type="checkbox"> Tersedia di Rak</label>
+    </div>
+    <div class="filter-section">
+      <h4>Bahasa</h4>
+      <label><input type="checkbox"> Indonesia</label>
+      <label><input type="checkbox"> English</label>
+    </div>
+    <div class="filter-section">
+      <h4>Tipe Koleksi</h4>
+      <label><input type="checkbox"> Fiction</label>
+      <label><input type="checkbox"> Textbook</label>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="book-card">
+      <img src="buku pai.jpeg" alt="Yasa">
+      <div class="book-info">
+        <div class="book-title">YASA</div>
+        <div class="book-meta">Edisi: Cet. II | ISBN: 9786024304317 | 376 hlm</div>
+        <div class="book-desc">Edisi</div>
+        <div class="book-desc">ISBN/ISSN</div>
+        <div class="book-desc">Deskripsi fisik</div>
+        <div class="book-desc">judul seNri</div>
+        <div class="book-desc">No. panggil</div>
+      </div>
+      <div class="book-actions">
+        <div>Ketersediaan: 1</div>
+        <button class="btn btn-download">Unduh MARC</button>
+        <button class="btn btn-sitasi">Sitasi</button>
+      </div>
+    </div>
+
+    <div class="book-card">
+      <img src="sejarah emyu.jpeg" alt="Rahasia Putri Duyung">
+      <div class="book-info">
+        <div class="book-title">Rahasia Putri Duyung</div>
+        <div class="book-meta">Edisi: Cet. I | ISBN: 978-979-052-218-3</div>
+        <div class="book-desc">Deskripsi singkat buku Rahasia Putri Duyung...</div>
+        <div class="book-desc">ISBN/ISSN</div>
+        <div class="book-desc">Deskripsi fisik</div>
+        <div class="book-desc">judul seNri</div>
+        <div class="book-desc">No. panggil</div>
+      </div>
+      <div class="book-actions">
+        <div>Ketersediaan: 0</div>
+        <button class="btn btn-download">Unduh MARC</button>
+        <button class="btn btn-sitasi">Sitasi</button>
+      </div>
+    </div>
+
+    <!-- Tambahkan buku lain sesuai kebutuhan -->
+
+  </div>
+</div>
+</body>
+</html>
